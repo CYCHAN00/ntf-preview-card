@@ -1,0 +1,31 @@
+:root {
+  --color-primary-blue-soft: hsl(215, 51%, 70%);
+  --color-primary-cyan: hsl(178, 100%, 50%);
+  --color-neutral-blue-main-bg: hsl(217, 54%, 11%);
+  --color-neutral-blue-card-bg: hsl(216, 50%, 16%);
+  --color-neutral-blue-line: hsl(215, 32%, 27%);
+  --color-neutral-white: hsl(0, 0%, 100%);
+
+  --layout-desktop: 90em;
+  --layout-mobile: 23.4375em;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+  background-color: var(--color-neutral-blue-main-bg);
+}
